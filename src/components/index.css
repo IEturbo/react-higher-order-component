@@ -1,0 +1,37 @@
+.tapbar{
+  background: #cccccc;
+  height:50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border: 1px solid #f5efef;
+  padding: 5px 0;
+}
+.tapbar-content{
+  display: flex;
+}
+
+.tapbar-item{
+  flex: 1;
+}
+
+.iconfont{
+  font-size: 28px!important;
+}
+
+.active{
+  color: red!important;
+}
+
+.tapbar-container{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.bg{
+  width: 100%;
+}
+a:hover,a:visited,a:link,a:active{
+  color: #333;
+  text-decoration: none;
+}
